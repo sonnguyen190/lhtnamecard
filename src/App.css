@@ -1,45 +1,43 @@
-
 .App {
   text-align: center;
-  background: linear-gradient(
-0deg
-, rgb(255, 185, 198), rgb(105, 79, 246));
+  background: linear-gradient(0deg, rgb(255, 185, 198), rgb(105, 79, 246));
   height: 100%;
   width: 100%;
 }
 
-.image{
+.image {
   border-radius: 120px;
 }
-h4{
+h4 {
   margin-top: 5px;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
 }
-h1{
+h1 {
   margin-top: 0px;
 }
-h2{
+h2 {
   margin-bottom: 0px;
   margin-top: 2px;
+  text-shadow:2px 2px rgb(41, 106, 202);
 }
-ul{
+ul {
   list-style: none;
 }
-i{
-  color: #0c1622;;
+.bi-facebook {
+  color: #0c1622;
   font-size: 12vw;
   animation: pulse 7s linear infinite;
 }
-a{
+a {
   text-decoration: none;
 }
-.linkfb{
+.linkfb {
   font-size: 10vw;
-  color: midnightblue ;
+  color: midnightblue;
   text-shadow: -4px 2px 0 rgb(16, 8, 24), -4px 1px 0 black;
   animation: pulse 7s linear infinite;
 }
-@keyframes pulse{
+@keyframes pulse {
   0% {
     color: rgb(61, 214, 150);
   }
@@ -74,19 +72,115 @@ a{
     color: rgb(183, 214, 46);
   }
 }
-.gif{
+.gif {
   width: auto;
-  height: 210px;
+  height: 180px;
   margin-top: 0px;
   padding-top: 0px;
 }
-.fss{
+.fss {
   font-size: 5vw;
 }
-.linkfb1{
+.linkfb1 {
   animation: pulse 7s linear infinite;
 }
-.image{
+.image {
   height: 50vw;
   width: 50vw;
+}
+.button{
+  border-radius: 50px;
+  background: linear-gradient(0deg, rgb(232, 236, 229), rgb(221, 99, 245));
+  width: 75vw;
+}
+.ulli{
+width: 100%;
+margin-left: 0px;
+padding-left: 0px;
+}
+li{
+  width: 100%;
+  padding-bottom: 10px;
+}
+.linkphone {
+  font-size: 10vw;
+  color: midnightblue;
+  text-shadow: -4px 2px 0 rgb(16, 8, 24), -4px 1px 0 black;
+  animation: pulsephone 7s linear infinite;
+}
+@keyframes pulsephone {
+  0% {
+    color: rgb(115, 113, 243);
+  }
+  10% {
+    color: rgb(204, 58, 143);
+  }
+  20% {
+    color: rgb(2, 134, 46);
+  }
+  30% {
+    color: rgb(8, 188, 243);
+  }
+  40% {
+    color: rgb(230, 140, 23);
+  }
+  50% {
+    color: rgb(45, 9, 248);
+  }
+  60% {
+    color: rgb(121, 101, 209);
+  }
+  70% {
+    color: rgb(110, 6, 230);
+  }
+  80% {
+    color: rgb(73, 7, 7);
+  }
+  90% {
+    color: rgb(131, 216, 34);
+  }
+  100% {
+    color: rgb(152, 41, 226);
+  }
+}
+.linkgmail{
+  font-size: 10vw;
+  color: midnightblue;
+  text-shadow: -4px 2px 0 rgb(16, 8, 24), -4px 1px 0 black;
+  animation: pulsemail 7s linear infinite;
+}
+@keyframes pulsemail {
+  0% {
+    color: rgb(17, 16, 99);
+  }
+  10% {
+    color: rgb(255, 0, 149);
+  }
+  20% {
+    color: rgb(0, 255, 85);
+  }
+  30% {
+    color: rgb(0, 195, 255);
+  }
+  40% {
+    color: rgb(255, 145, 0);
+  }
+  50% {
+    color: rgb(251, 255, 0);
+  }
+  60% {
+    color: rgba(0, 238, 255, 0.527);
+  }
+  70% {
+    color: rgb(119, 0, 255);
+  }
+  80% {
+    color: rgb(247, 0, 255);
+  }
+  90% {
+    color: rgb(114, 214, 0);
+  }
+  100% {
+    color: rgb(14, 13, 82);
+  }
 }
